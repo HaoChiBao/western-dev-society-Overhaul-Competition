@@ -2,7 +2,7 @@
 
 ## Welcome to Overhaul!
 
-###Please download the pdf separately below to get the instructions for this case competition. By 1PM tomorrow your team must have a prepared slide deck alongside a separate repository constianing your altered program
+### Please download the pdf separately below to get the instructions for this case competition. By 1PM tomorrow your team must have a prepared slide deck alongside a separate repository constianing your altered program
 
 Download the repo using the following  command:
 
