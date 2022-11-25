@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+
+< lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--========== BOX ICONS ==========-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
         <!--========== CSS ==========-->
-        <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+        <link rel="stylesheet" href="">
 
-        <title>Responsive website food</title>
+        <title>Euclid's Fantastic Playhouse</title>
     </head>
     <body>
 
@@ -62,7 +59,7 @@
                     <div class="about__data">
                         <span class="section-subtitle about__initial">About us</span>
                         <h2 class="section-title about__initial">We cook the best <br> tasty food</h2>
-                        <p class="about__description">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
+                        <p class="about__description">We cook food</p>
                         <a href="#" class="button">Explore history</a>
                     </div>
 
@@ -86,14 +83,6 @@
 
                     <div class="services__content">
                         <svg class="services__img" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0)">
-                            
-                                </g>
-                                <defs>
-                                <clipPath id="clip0">
-                                <rect width="64" height="64" fill="white"/>
-                                </clipPath>
-                                </defs>
                         </svg>
                         <h3 class="services__title">Delivery</h3>
                         <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
@@ -130,6 +119,18 @@
                         <span class="menu__preci">$9.50</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
+                </div>
+                
+                <button id="myBtn">modal</button>
+
+                <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Order</p>
+                    <input type= 'password' minlength="8"/>
+                    <input type = 'time'/>
+                    
                 </div>
             </section>
 
@@ -210,11 +211,10 @@
                 </div>
             </div>
 
+            
+
             <p class="footer__copy">&#169; 2020 Bedimcode. All right reserved</p>
         </footer>
-
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
