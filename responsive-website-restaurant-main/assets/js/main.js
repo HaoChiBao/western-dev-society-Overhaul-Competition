@@ -14,19 +14,24 @@ const showMenu = (toggleId, navId) =>{
 showMenu('nav-toggle','nav-menu')
 
 /*==================== REMOVE MENU MOBILE ====================*/
-const navLink = document.getElementById('.nav__link')
+// const navLink = document.getElementById('.nav__link')
+const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
+    console.log(1)
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
-
+/* ERROR
+ forEach function takes in an array of elements
+ but the element selctor only took in one element
+*/
 function scrollHeader(){
     const nav = document.getElementById('header')
     // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
-    if(this.scrollY >= 200) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
+    if(this.scrollY >= 200) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header'); 
 }
 window.addEventListener('scroll', scrollHeader)
 
@@ -39,15 +44,16 @@ function scrollTop(){
 window.addEventListener('scroll', scrollTop)
 
 
-
-var modal;
-
-var btn;
+//error: find elements on the DOM 
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
 
 var span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
-  modal.style.display = "block";
+    console.log(1)
+    modal.style.display = "block";
+
 }
 
 span.onclick = function() {
