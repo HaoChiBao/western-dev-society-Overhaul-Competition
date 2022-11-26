@@ -67,32 +67,55 @@
             
             <!--========== ABOUT ==========-->
             <section class="about section bd-container" id="about">
-                <div class="about__container  bd-grid">
+                <div class="about__container  bd-grid" id = "left">
                     <div class="about__data">
-                        <span class="section-subtitle about__initial">About us</span>
-                        <h2 class="section-title about__initial">We cook the best <br> tasty food</h2>
-                        <p class="about__description">We cook food</p>
-                        <a href="#" class="button">Explore history</a>
+                        <div style="margin-bottom: 2rem;">
+                            <span class="section-subtitle about__initial" style = "font-family: Brush Script MT, Brush Script Std, cursive;font-size: 3rem;color: #FF9F0D;">About us</span>
+                            <h2 class="section-title about__initial"style="font-size:3rem;">We cook the best <br> tasty food</h2>
+                            <p class="about__description" style = "font-family: 'inter', sans-serif;font-size: 2rem;">We cook food</p>
+                        </div>
+                        <a href="#" class="button" style = "margin: 1rem 0rem;background-color: #FF9F0D;padding:1rem 2rem;color:white;text-decoration: none; font-family: 'inter', sans-serif;border-radius: 10rem;">Explore history</a>
                     </div>
-
-                    <!-- <img src="assets/img/about.jpg" alt="" class="about__img"> -->
+                </div>
+                <div id = "right">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
                 </div>
             </section>
 
             <!--========== SERVICES ==========-->
             <section class="services section bd-container" id="services">
-                <span class="section-subtitle">Offering</span>
-                <h2 class="section-title">Our amazing services</h2>
+                
+                <span class="section-subtitle" style="color: #FF9F0D;font-family: Brush Script MT, Brush Script Std, cursive; font-size: 3rem;">Offering</span>
+                <h2 class="section-title" style= "font-size: 3rem">Our amazing services</h2>
+
+
+                <div style = "overflow: hidden; height: 25rem;display: flex;justify-content: space-evenly;align-items: center;">
+                    <img src="assets/img/service-bg.png" style = "position:absolute;width:100%;opacity:0.1;filter: blur(5px);z-index:-1;" alt="">
+                    <div style="display:flex; flex-direction:column;justify-content: center;align-items: center;">
+                        <img src="assets/img/food-icon.png" alt="" style = "padding:10px">
+                        <p style="font-family: 'Abhaya Libre', serif;font-size: 1.5rem;">Items of Food</p>
+                        <h1 style="font-family: 'Abhaya Libre', serif;font-size: 2rem;">320</h1>
+                    </div>
+                    <div style="display:flex; flex-direction:column;justify-content: center;align-items: center;">
+                        <img src="assets/img/fork-icon.png" alt="">
+                        <p style="font-family: 'Abhaya Libre', serif;font-size: 1.5rem;">Years of Experience</p>
+                        <h1 style="font-family: 'Abhaya Libre', serif;font-size: 2rem;">30+</h1>
+                    </div>
+                    <div style="display:flex; flex-direction:column;justify-content: center;align-items: center;">
+                        <img src="assets/img/pizzaIcon.png" alt="">
+                        <p style="font-family: 'Abhaya Libre', serif;font-size: 1.5rem;">Happy Customers</p>
+                        <h1 style="font-family: 'Abhaya Libre', serif;font-size: 2rem;">220</h1>
+
+                    </div>
+                </div>
 
                 <div class="services__container  bd-grid">
                     <div class="services__content">
-                        <img src = "" alt = "placeholder">
                         <h3 class="services__title">Excellent food</h3>
                         <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
                     </div>
 
                     <div class="services__content">
-                        <img src = "" alt = "placeholder">
                         <h3 class="services__title">Delivery</h3>
                         <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
                     </div>
@@ -104,13 +127,13 @@
                 <span class="section-subtitle">Special</span>
                 <h2 class="section-title">Menu of the week</h2>
 
-                <div class="menu__container bd-grid">
+                <div class="menu__container bd-grid" id ="order_me">
                     <div class="menu__content">
                         <img src="assets/img/plate1.png" alt="" class="menu__img">
                         <h3 class="menu__name">Barbecue salad</h3>
                         <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">$22.00</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'>Add to Cart</i></a>
                     </div>
 
                     <div class="menu__content">
@@ -118,7 +141,7 @@
                         <h3 class="menu__name">Salad with fish</h3>
                         <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">$12.00</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i>Add to Cart</a>
                     </div>
                     
                     <div class="menu__content">
@@ -126,7 +149,7 @@
                         <h3 class="menu__name">Spinach salad</h3>
                         <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">$9.50</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i>Add to Cart</a>
                     </div>
                 </div>
                 

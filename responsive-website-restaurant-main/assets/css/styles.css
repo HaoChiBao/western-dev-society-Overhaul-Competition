@@ -236,3 +236,29 @@ body {
 }
 
 /* about us thingg */
+
+#about{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about #left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about #right{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about #right img{
+  width: 100%;
+}
